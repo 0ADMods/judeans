@@ -1,31 +1,31 @@
 {
-	"Code":"jude",
-	"Culture":"hele",
-	"Name":"Judeans",
-	"Emblem":"session/portraits/emblems/emblem_judeans.png",
-	"History":"The Judeans of the Hasmonean Dynasty and later period.",
+	"Code": "jude",
+	"Culture": "jude",
+	"Name": "Judeans",
+	"Emblem": "session/portraits/emblems/emblem_judeans.png",
+	"History": "The Judeans of the Hasmonean Dynasty and later period.",
 	"Music":[
-			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
-			{"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
-			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
-			{"File":"The_Hellespont.ogg", "Type":"peace"}
+			{ "File": "Helen_Leaves_Sparta.ogg", "Type": "peace" },
+			{ "File": "Peaks_of_Atlas.ogg", "Type": "peace" },
+			{ "File": "Forging_a_City-State.ogg", "Type": "peace" },
+			{ "File": "The_Hellespont.ogg", "Type": "peace" }
 		],
 	"Factions":
 	[
 		{
-			"Name":"Judeans",
-			"Description":"",
+			"Name": "Judeans",
+			"Description": "",
 			"Technologies":
 			[
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Judah Maccabbee",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Leader of the Maccabbean Revolt against the Seleucid Empire ."
+					"Name": "Judah Maccabbee",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Leader of the Maccabbean Revolt against the Seleucid Empire ."
 				}
 			]
 		}
@@ -38,15 +38,6 @@
 	],
 	"Structures":
 	[
-		{
-			"Name":"Theatron",
-			"Class":"",
-			"Emblem":"",
-			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
-			"Requirements":"",
-			"Phase":"City",
-			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
-		}
 	],
 	"WallSets":
 	[
