@@ -1,0 +1,110 @@
+{
+	"Code":"jude",
+	"Culture":"hele",
+	"Name":"Judeans",
+	"Emblem":"session/portraits/emblems/emblem_judeans.png",
+	"History":"The Judeans of the Hasmonean Dynasty and later period.",
+	"Music":[
+			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+			{"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Judeans",
+			"Description":"",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Judah Maccabbee",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Leader of the Maccabbean Revolt against the Seleucid Empire ."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name":"Theatron",
+			"Class":"",
+			"Emblem":"",
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/jude_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/jude_civil_centre"
+		},
+		{
+			"Template": "units/jude_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/jude_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/jude_infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/jude_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+	],
+	"AINames":
+	[
+		"Judah",
+		"John",
+		"Jonathan",
+		"Simon",
+		"Mattathias"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/jude_infantry_slinger_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": ""
+	},
+	"SelectableInGameSetup": true
+}
