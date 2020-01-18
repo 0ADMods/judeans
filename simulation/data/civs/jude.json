@@ -4,22 +4,30 @@
 	"Name": "Judeans",
 	"Emblem": "session/portraits/emblems/emblem_judeans.png",
 	"History": "The Judeans of the Hasmonean Dynasty and later period.",
-	"Music":[
-			{ "File": "Helen_Leaves_Sparta.ogg", "Type": "peace" },
-			{ "File": "Peaks_of_Atlas.ogg", "Type": "peace" },
-			{ "File": "Forging_a_City-State.ogg", "Type": "peace" },
-			{ "File": "The_Hellespont.ogg", "Type": "peace" }
-		],
-	"Factions":
-	[
+	"Music": [
+		{
+			"File": "Helen_Leaves_Sparta.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
 		{
 			"Name": "Judeans",
 			"Description": "",
-			"Technologies":
-			[
-			],
-			"Heroes":
-			[
+			"Technologies": [],
+			"Heroes": [
 				{
 					"Name": "Judah Maccabbee",
 					"Class": "",
@@ -30,22 +38,14 @@
 			]
 		}
 	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[
-	],
-	"Structures":
-	[
-	],
-	"WallSets":
-	[
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/jude_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
 			"Template": "structures/jude_civil_centre"
 		},
@@ -65,8 +65,7 @@
 			"Template": "units/jude_cavalry_javelinist_b"
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/null",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -79,18 +78,16 @@
 		"special/formations/battle_line",
 		"special/formations/phalanx"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Judah",
 		"John",
 		"Jonathan",
 		"Simon",
 		"Mattathias"
 	],
-	"SkirmishReplacements":
-	{
+	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_ranged_b": "units/jude_infantry_slinger_b",
-		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_house_10": "structures/{civ}_house",
 		"skirmish/structures/default_wall_tower": "",
 		"skirmish/structures/default_wall_gate": "",
 		"skirmish/structures/default_wall_short": "",
