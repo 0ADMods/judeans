@@ -7,13 +7,13 @@
   <Identity>
     <Civ>jude</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/jude_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/jude/infantry_slinger_b</SelectionGroupName>
     <GenericName>Judean Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/jude_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/jude_infantry_slinger_a</Entity>
+    <Entity>units/jude/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/judeans/infantry_slinger_b.xml</Actor>

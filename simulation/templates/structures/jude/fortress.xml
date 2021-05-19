@@ -14,8 +14,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_hero_judah
-      units/{civ}_champion_infantry_swordsman
+      units/{civ}/hero_judah
 	  </Entities>
     <Technologies datatype="tokens">
       siege_attack

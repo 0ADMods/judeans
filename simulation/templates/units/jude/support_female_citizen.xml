@@ -6,7 +6,7 @@
     <SpecificName></SpecificName>
     <GenericName>Judean Woman</GenericName>
     <Icon>units/jude_support_female.png</Icon>
-    <SelectionGroupName>units/jude_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/jude/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/judeans/female_citizen.xml</Actor>

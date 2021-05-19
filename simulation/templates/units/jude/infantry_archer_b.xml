@@ -7,15 +7,15 @@
   <Identity>
     <Civ>jude</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/jude_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/jude/infantry_archer_b</SelectionGroupName>
     <GenericName>Judean Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/jude_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/jude_infantry_archer_a</Entity>
+    <Entity>units/jude/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/judeans/infantry_archer_b.xml</Actor>
+    <Actor>units/persians/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

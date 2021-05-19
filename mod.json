@@ -1,9 +1,9 @@
 {
 	"name": "judeans",
 	"label": "0 A.D. Judeans",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"url": "https://github.com/0ADMods/judeans",
-	"description": "Judeans faction for 0 A.D.",
+	"description": "Judeans faction for 0 A.D. Edited by Yekaterina",
 	"dependencies": ["0ad>=0.0.24"],
 	"type": "civ"
 }

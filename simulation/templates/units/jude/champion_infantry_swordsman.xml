@@ -6,6 +6,7 @@
     <GenericName>Judean Royal Guard</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/jude_champion_swordsman.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/judeans/infantry_swordsman_c.xml</Actor>

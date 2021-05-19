@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
     </Entities>
@@ -7,15 +7,15 @@
   <Identity>
     <Civ>jude</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/jude_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/jude/infantry_spearman_b</SelectionGroupName>
     <GenericName>Judean Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/jude_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/jude_infantry_spearman_a</Entity>
+    <Entity>units/jude/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/judeans/infantry_spearman_b.xml</Actor>
+    <Actor>units/persians/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>
