@@ -16,12 +16,7 @@
     <Entities datatype="tokens">
       units/{civ}/hero_judah
 	  </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
-    </Technologies>
+
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/seleucids/fortress.xml</Actor>
