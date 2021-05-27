@@ -43,26 +43,26 @@
 	"Structures": [],
 	"WallSets": [
 		"other/wallset_palisade",
-		"structures/jude_wallset_stone"
+		"structures/jude/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/jude_civil_centre"
+			"Template": "structures/jude/civil_centre"
 		},
 		{
-			"Template": "units/jude_support_female_citizen",
+			"Template": "units/jude/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/jude_infantry_spearman_b",
+			"Template": "units/jude/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/jude_infantry_slinger_b",
+			"Template": "units/jude/infantry_slinger_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/jude_cavalry_javelinist_b"
+			"Template": "units/jude/cavalry_javelineer_b"
 		}
 	],
 	"Formations": [
@@ -86,13 +86,13 @@
 		"Mattathias"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/jude_infantry_slinger_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house",
-		"skirmish/structures/default_wall_tower": "",
-		"skirmish/structures/default_wall_gate": "",
-		"skirmish/structures/default_wall_short": "",
-		"skirmish/structures/default_wall_medium": "",
-		"skirmish/structures/default_wall_long": ""
+		"skirmish/units/default/infantry_ranged_b": "units/jude/infantry_slinger_b",
+		"skirmish/structures/default/house_10": "structures/jude/house",
+		"skirmish/structures/default/wall_tower": "units/jude/wall_tower",
+		"skirmish/structures/default/wall_gate": "units/jude/wall_gate",
+		"skirmish/structures/default/wall_short": "units/jude/wall_short",
+		"skirmish/structures/default/wall_medium": "units/jude/wall_medium",
+		"skirmish/structures/default/wall_long": "units/jude/wall_long"
 	},
 	"SelectableInGameSetup": true
 }
